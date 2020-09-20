@@ -1,0 +1,4 @@
+d1 = {'AK-47':'Assault Rifle', 'QQ9':'SMG', 'MW11':'Pistol', 'Kar98k':'Marksman',
+      'M21-EBR':'Sniper'}
+x = input('Enter Gun Name')
+print('The Category of the Gun chosen is',(d1[x]))
