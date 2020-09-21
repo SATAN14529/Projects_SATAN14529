@@ -1,0 +1,28 @@
+x = 18
+print("This is a Number Guessing Game \n ""The number of guesses is only limited to 9 times")
+guess = 1
+
+
+while (guess<=9) :
+    gn = int(input("Enter a number between 1 to 100: \n "))
+
+    if (gn>18):
+        print("Enter a Lesser Number \n")
+    elif (gn<18):
+        print("Enter a Greater Number \n")
+    else:
+        print("You Won!\n")
+        print("You took", guess,"Number of attempts...")
+        break
+
+    print("Number of Guesses attempted", guess)
+    guess = guess + 1
+    if guess > 9:
+        print("Limit of Attempts Reached!\n")
+        print("Game Over")
+
+
+
+
+
+
